@@ -221,39 +221,15 @@ For official support, billing, or product inquiries, please visit:
 
 </section>
 
-<!-- BREADCRUMB SCHEMA -->
-<script type="application/ld+json">
-{
-"@context":"https://schema.org",
-"@type":"BreadcrumbList",
-"itemListElement":[
-{"@type":"ListItem","position":1,"name":"Home","item":"https://brightlane.github.io/ExamBoost/"},
-{"@type":"ListItem","position":2,"name":"Medical Exam Prep","item":"https://brightlane.github.io/ExamBoost/#resources"},
-{"@type":"ListItem","position":3,"name":"Study Guides","item":"https://brightlane.github.io/ExamBoost/#blog"}
-]
-}
-</script>
+<!-- EXTRA SPACE SO FOOTER IS NEVER BLOCKED -->
+<div style="height:120px;"></div>
 
-<!-- SITELINK SEARCH BOX -->
-<script type="application/ld+json">
-{
-"@context":"https://schema.org",
-"@type":"WebSite",
-"url":"https://brightlane.github.io/ExamBoost/",
-"potentialAction":{
-"@type":"SearchAction",
-"target":"https://brightlane.github.io/ExamBoost/?s={search_term_string}",
-"query-input":"required name=search_term_string"
-}
-}
-</script>
-
-<footer>
+<footer style="background:#111;color:#fff;padding:20px;text-align:center;">
 <p>
 &copy; 2026 Medical Exam Prep Resource | 
-<a href="#privacy">Privacy Policy</a> | 
-<a href="#legal">Affiliate Disclosure</a> | 
-<a href="https://www.boardvitals.com/contact">Contact</a>
+<a href="#privacy" style="color:#0af;">Privacy Policy</a> | 
+<a href="#legal" style="color:#0af;">Affiliate Disclosure</a> | 
+<a href="https://www.boardvitals.com/contact" style="color:#0af;">Contact</a>
 </p>
 
 <p>
@@ -261,12 +237,30 @@ USMLE, NCLEX, COMLEX, PANCE, PANRE, NAPLEX | QBank, Practice Exams, Adaptive Lea
 </p>
 </footer>
 
-<!-- STICKY CTA -->
+<!-- STICKY CTA (NOW PROPERLY POSITIONED) -->
+<style>
+.sticky-cta{
+position:fixed;
+bottom:10px;
+left:50%;
+transform:translateX(-50%);
+background:#ff6600;
+color:#fff;
+padding:15px 25px;
+font-size:18px;
+font-weight:bold;
+border-radius:8px;
+text-decoration:none;
+z-index:999;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+</style>
+
 <a href="https://www.linkconnector.com/ta.php?lc=007949127543007614&atid=BoardVitalsWeb" class="sticky-cta">
 Start Practicing Now
 </a>
 
-<!-- AUTO FIX ALL EXTERNAL LINKS -->
+<!-- AUTO FIX LINKS -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const links = document.querySelectorAll("a[href^='http']");
