@@ -162,3 +162,47 @@ footer{font-size:12px; color:#444; text-align:center; padding:20px; border-top:1
 <li><strong>Suitable for busy professionals?</strong> Mobile & offline modes available. <a href="https://www.linkconnector.com/ta.php?lc=007949127543007614&atid=BoardVitalsWeb">Start Learning</a></li>
 </ul>
 </section>
+<section id="privacy">
+<h2>Privacy Policy</h2>
+<p>Your privacy is important. We do not collect personal information unless voluntarily submitted. For full details, please review the official policy at <a href="https://www.boardvitals.com/privacy-policy">boardvitals.com/privacy-policy</a>.</p>
+</section>
+
+<section id="legal">
+<h2>Legal & Affiliate Disclosure</h2>
+<p>This page contains affiliate links. We may earn a commission if you purchase via our links at no extra cost to you. All trademarks belong to their respective owners. Content is provided for educational purposes only.</p>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>For support or product inquiries, visit <a href="https://www.boardvitals.com">boardvitals.com</a>.</p>
+</section>
+
+<footer>
+&copy; 2026 BoardVitals Review – All Rights Reserved | Mega SEO, Rich Snippets, Mobile-Friendly & High-Contrast
+</footer>
+
+<!-- Sticky Call-to-Action Button -->
+<a href="https://www.linkconnector.com/ta.php?lc=007949127543007614&atid=BoardVitalsWeb" class="sticky-cta">Start Practicing Now</a>
+
+<!-- Review Carousel Auto-Rotate Script -->
+<script>
+// Initialize variables
+let currentSlide = 0;
+const slides = document.querySelectorAll('.review-slide');
+const totalSlides = slides.length;
+
+// Function to show next slide
+function showNextSlide() {
+  currentSlide++;
+  if(currentSlide >= totalSlides) currentSlide = 0;
+  const carousel = document.querySelector('.review-carousel');
+  carousel.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
+}
+
+// Auto-rotate every 5 seconds
+setInterval(showNextSlide, 5000);
+</script>
+
+</div> <!-- End container -->
+</body>
+</html>
