@@ -1,0 +1,49 @@
+{
+  "site_name": "ExamBoost",
+  "site_url": "https://brightlane.github.io/ExamBoost",
+  "repo": "ExamBoost",
+  "owner": "brightlane",
+  "affiliate_program": "LinkConnector",
+  "affiliates": {
+    "boardvitals": {
+      "name": "BoardVitals",
+      "url": "https://www.linkconnector.com/ta.php?lc=007949127543007614&atid=BoardVitalsWeb",
+      "lc": "007949127543007614",
+      "atid": "BoardVitalsWeb",
+      "description": "Comprehensive QBank for USMLE, NCLEX, COMLEX, and specialty boards",
+      "rating": "4.7",
+      "reviews": "1250",
+      "price_from": "49",
+      "best_for": "All exams + CME + MOC"
+    }
+  },
+  "competitors": {
+    "uworld": {
+      "name": "UWorld",
+      "url": "https://www.uworld.com",
+      "best_for": "USMLE Step 1 and Step 2 CK"
+    },
+    "medstudy": {
+      "name": "MedStudy",
+      "url": "https://www.medstudy.com",
+      "best_for": "Specialty board certification"
+    },
+    "amboss": {
+      "name": "AMBOSS",
+      "url": "https://www.amboss.com",
+      "best_for": "Medical knowledge library + QBank"
+    },
+    "sketchy": {
+      "name": "Sketchy",
+      "url": "https://www.sketchy.com",
+      "best_for": "Visual learning, pharmacology"
+    },
+    "anki": {
+      "name": "Anki",
+      "url": "https://apps.ankiweb.net",
+      "best_for": "Spaced repetition flashcards"
+    }
+  },
+  "disclosure": "This site contains affiliate links. We earn commissions from qualifying purchases at no extra cost to you.",
+  "updated": "2026"
+}
